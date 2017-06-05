@@ -1,0 +1,80 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+color:black;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+ul li{
+	padding: 10% 5%;
+
+}
+nav ul li{
+	transform: scale(1.5);
+}
+
+.frame{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 2%;
+}
+
+.home{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 18%;
+	left: 15%;
+	height: 75%
+
+}
+
+.txt1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 85%;
+	left: 35%;
+	height: %
+}
+
+.txt2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	height: %;
+
+}
+
+
+.txtsb{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
