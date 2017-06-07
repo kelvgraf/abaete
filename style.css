@@ -9,7 +9,7 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-position: fixed;
+position: fixed ;
 top: 0;
 left: 0;
 width: 100%;
@@ -19,8 +19,9 @@ margin: 0;
 list-style: none;
 }
 
+
 ul li{
-	padding: 10% 5%;
+	padding: 10% 3%;
 
 }
 nav ul li{
@@ -31,7 +32,8 @@ nav ul li{
 	display: flex;
 	justify-content: center;
 	position: relative;
-	top: 2%;
+	margin-top: 2%;
+	margin-left: 8%;
 }
 
 .home{
@@ -69,12 +71,34 @@ nav ul li{
 
 }
 
+.sobre{
+	background-color: yellow;
+	height: 100%;
+	width: 100%;
+	padding-top:  50%;
+}
 
 .txtsb{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+	width: 42%;
+	position:relative;
+	left:23%;
+	top:-400px;
+	font-size: 105%;
 
 }
 
+footer{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 300px;*/
+}
+
+.pe{
+
+}
