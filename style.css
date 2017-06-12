@@ -17,6 +17,7 @@ color:black;
 padding: 0;
 margin: 0;
 list-style: none;
+z-index: 4;
 }
 
 
@@ -91,14 +92,22 @@ nav ul li{
 
 }
 
-footer{
-	/*display: flex;
+footer div{
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	flex-direction: row;
+
+	/*position: relative;
 	top: 300px;*/
 }
 
-.pe{
+.icone{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 6%;
+	height: 10%;
+	position:relative;
 
 }
