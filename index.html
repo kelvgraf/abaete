@@ -3,8 +3,9 @@
 <head>
  <link rel="shortcut icon"  href="Assets/16105497_636114056513208_4634787693147467224_n.jpg">
 <meta charset="utf-8">
-	<title>Estúdio Abaeté</title>
-	<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estúdio Abaeté</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -44,34 +45,121 @@
 		<!-- </section> -->
 
 		<!-- <section> -->
+
+
+<div class="container">
+		<h2 class="w3-center">Manual Slideshow</h2>
+
+	<div class="w3-content w3-display-container">
+  		<img class="mySlides" src="Assets/Abaete-Acao1.jpg" style="width:100%">
+  		<img class="mySlides" src="Assets/Abaete-Acao2.jpg" style="width:100%">
+  		<img class="mySlides" src="Assets/Abaete-Acao3.jpg" style="width:100%">
+
+
+ 		<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  		<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+
+</div>
+
+
+<!-- <div class="w3-content w3-display-container" style="max-width:800px">
+  <img class="mySlides" src="Assets/Abaete-Acao1.jpg" style="width:50%">
+  <img class="mySlides" src="Assets/Abaete-Acao2.jpg" style="width:50%">
+  <img class="mySlides" src="Assets/Abaete-Acao3.jpg" style="width:50%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:50%">
+    <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+ -->
+
+
+
+
+			
 				<img src="Assets/Abaete-Seta_esquerda.svg">
 				<img src="Assets/Abaete-Seta_direita.svg">				
 			<div>
 				<h2>Audiovisual na alma</h2>
 				<p>Aqui você encontra profissionais talentosos, qualificados e apaixonados pelo audiovisual, além de preço justo e uma relação sincera.
 				</p>
-				<img src="Assets/Abaete-Acao1.jpg">
+				<img class="mySlides1" src="Assets/Abaete-Acao1.jpg">
 			</div>
 
 			<div>
 				<h2>Novos talentos</h2>
 				<p>O trabalho com artistas locais traz ventos de criatividade, autenticidade e pioneirismo, fazendo do Abaeté uma fonte abundante de novos talentos, ideias e atitudes.
 				</p>
-				<img src="Assets/Abaete-Acao2.jpg">
+				<img class="mySlides1" src="Assets/Abaete-Acao2.jpg">
 
 			</div>
 		</section>
 	</main>
 	<footer>
 		<img src="Assets/Abaete-Frame-Desktop-Contato.svg">
-		<p>estudioabaete@gmail.com</p>
-		<p>(21) 9 8336-9348</p>
-		<div>
-		<a class="icone" href="https://www.facebook.com/estudioabaete/" target="black
-		"><img src="Assets/Abaete-Icone-Facebook.svg"></a>
-		<a class="icone" href="https://www.youtube.com/channel/UCCwGSap2DkcAbBiZITfcTYA" target="blabk"><img src="Assets/Abaete-Icone-Youtube.svg"></a>
-		<a class="icone" href="https://www.instagram.com/estudioabaete/" target="black"><img src="Assets/Abaete-Icone-Instagram.svg"></a>
+		<div>	
+		<p class="prgf">estudioabaete@gmail.com (21) 9 8336-9348</p>
+		<a  href="https://www.facebook.com/estudioabaete/" target="black
+		"><img class="icone"  src="Assets/Abaete-Icone-Facebook.svg"></a>
+		<a  href="https://www.youtube.com/channel/UCCwGSap2DkcAbBiZITfcTYA" target="blabk"><img class="icone"  src="Assets/Abaete-Icone-Youtube.svg"></a>
+		<a href="https://www.instagram.com/estudioabaete/" target="black"><img class="icone"  src="Assets/Abaete-Icone-Instagram.svg"></a>
 		</div>
+
 	</footer>
+
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<!-- 	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script> -->
+
+
 </body>
 </html>
