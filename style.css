@@ -34,7 +34,7 @@ nav ul li{
 	justify-content: center;
 	position: relative;
 	margin-top: 2%;
-	margin-left: 8%;
+	margin-right: 1%;
 }
 
 .home{
@@ -43,7 +43,7 @@ nav ul li{
 	align-items: center;
 	flex-wrap: wrap;
 	position: absolute;
-	top: 18%;
+	top: 12%;
 	left: 15%;
 	height: 75%
 
@@ -55,7 +55,7 @@ nav ul li{
 	align-items: center;
 	flex-wrap: wrap;
 	position: absolute;
-	top: 85%;
+	top: 80%;
 	left: 35%;
 	height: %
 }
@@ -66,7 +66,7 @@ nav ul li{
 	align-items: center;
 	flex-wrap: wrap;
 	position: absolute;
-	top: 90%;
+	top: 85%;
 	left: 35%;
 	height: %;
 
@@ -91,38 +91,9 @@ nav ul li{
 	font-size: 105%;
 
 }
-footer div{
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-}
-
-/*footer div{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-
-	position: relative;
-	top: 300px;
-}*/
-
-.icone{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 120%;
-	height: 120%;
-	position:relative;
-	top: -450px;
-	left:-200px;
-
-}
 
 .container{
-	background-color: blue;
+	background-color: #0000DD;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -131,20 +102,23 @@ footer div{
 }
 
 .prgf{
+	justify-content: center;
 	position: relative;
-	width: 10%;
-	top:-550px;
+	top: 190px;
+	left: 2%;;
 
 }
 
 .mySlides{
-	width: 63%;
-	height: 55%;
+	width: 55%;
+	height: 63%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 0%;
 	position: relative;
+	top: 22%;
+	left: 22%;
 }
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer;
@@ -158,6 +132,38 @@ margin: 30px;
 	left:-600px;
 
 }
-.w3-badge {height:20px;width:20px;padding:0}
+/*.w3-badge {height:20px;width:20px;padding:0}
 
 }
+*/
+
+footer div{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*flex-direction: column;*/
+	flex-wrap: wrap;
+}
+
+.framefooter{
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 700px;
+}
+
+
+.icone{
+	display: inline;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 125%;
+	height: 125%;
+	position: relative;
+	top: 300px;
+	left: -150%;
+}
+
+
