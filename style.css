@@ -88,7 +88,7 @@ header{
 }
 
 
-@media screen and (max-width: 1044px) {
+@media screen and (max-width: 320px) {
 	body{
 	padding: 0;
 	margin: 0;
@@ -104,26 +104,49 @@ header{
 	}
 .responsivo-frame{
 	display: block;
+	margin: 0%;
+    width: 112%;
+    height: 75%;
+    position: relative;
+    top: 50px;
+    left: -5%;
 	}
 
 .home{
-	height: 75%
+	height: 75%;
+ 	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+	top: 25%;
+    left: 8%;
+    width: 85%;
+    height: 30%;
 
 	}
 
-.txt2{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 75%;
-	left: 38%;
-	;
-	font-weight: bolder;
+.txt1{
+	    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-direction: column;
+    top: 55%;
+    left: 10%;
+    width: 75%;
+    height: 30%;
+    left: 17%;
+    height: %;
+    font-weight: bolder;
+    font-size: 15px;
+    font-style: normal;
+    text-align: left;
+    height: 76px;
+    letter-spacing: 0.2em;
+    line-height: 32px;
 
 	}
-
-
 
    
 }
@@ -187,13 +210,25 @@ header{
 	left: 22%;
 }
 .mySlides {display:none}
-.Abaete_Seta_direita, .Abaete_Seta_esqueda .w3-badge {
+.Abaete_Seta_direita, .Abaete_Seta_esquerda {
+	position: absolute;
+	top: 50%;
 	cursor: pointer;
-	display: inline;
-	justify-content: center;
-	align-items: center;
+	display: block;
+	border: none;
 	/*margin: 10px;*/
-
+}
+.Abaete_Seta_esquerda {
+	left: 2.5%;
+	width: 30px;
+	height: 30px;
+	background: red;
+}
+.Abaete_Seta_direita {
+	right: 2.5%;
+	width: 30px;
+	height: 30px;
+	background: red;
 }
 .w3-left{
 	position: relative;

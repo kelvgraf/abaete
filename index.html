@@ -22,7 +22,7 @@
 			<img class="responsivo-frame" src="Assets/Abaete-Frame-Mobile.svg">
 			<img class="frame" src="Assets/Abaete-Frame-Desktop-Home-Yellow.svg">
 			<img class="home" src="Assets/Abaete-Logo.png">
-			<h2 class="txt1">O Estúdio Abaeté é uma produtora <br> de audiovisual e animação</h2>
+			<h2 class="txt1"><strong>O Estúdio Abaeté é uma produtora de audiovisual e animação</strong></h2>
 			<!-- <h2 class="txt2">de audiovisual e animação.</h2> -->			
 				<a href="HOME"></a>
 
@@ -50,19 +50,21 @@
 
 
 <div class="container">
-		<h2 class="w3-center">Audiovisual na alma</h2>
-		<p>Aqui você encontra profissionais talentosos, qualificados e apaixonados pelo audiovisual, além de preço justo e uma relação sincera.</p>
-		<img class="mySlides" src="Assets/Abaete-Acao1.jpg">
+		<div class="slide">
+			<h2 class="w3-center">Audiovisual na alma</h2>
+			<p>Aqui você encontra profissionais talentosos, qualificados e apaixonados pelo audiovisual, além de preço justo e uma relação sincera.</p>
+			<img class="mySlides" src="Assets/Abaete-Acao1.jpg">
+		</div>
 
-	
-		<h2>Novos talentos</h2>
-		<p class="text">O trabalho com artistas locais traz ventos de criatividade, autenticidade e pioneirismo, fazendo do Abaeté uma fonte abundante de novos talentos, ideias e atitudes.</p>  		
-  		<img class="mySlides" src="Assets/Abaete-Acao2.jpg">
-  		<img class="mySlides" src="Assets/Abaete-Acao3.jpg">
+		<div class="slide">
+			<h2>Novos talentos</h2>
+			<p class="text">O trabalho com artistas locais traz ventos de criatividade, autenticidade e pioneirismo, fazendo do Abaeté uma fonte abundante de novos talentos, ideias e atitudes.</p>
+	  		<img class="mySlides" src="Assets/Abaete-Acao2.jpg">
+  		</div>
 
 
- 		<button class="Abaete_Seta_direita" onclick="plusDivs(-1)">&#10094;</button>
-  		<button class="Abaete_Seta_esquerda" onclick="plusDivs(1)">&#10095;</button>
+ 		<button class="Abaete_Seta_direita" onclick="plusDivs(-1)"></button>
+  		<button class="Abaete_Seta_esquerda" onclick="plusDivs(1)"></button>
 	
   		 <a href="#" title="AÇÕES" target="black"></a>
 
@@ -90,23 +92,24 @@
 	</footer>
 
 	<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+		var slideIndex = 1;
+		
+		showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
 	</script>
 
 </body>
