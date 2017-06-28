@@ -88,10 +88,14 @@ header{
 }
 
 
-@media screen and (max-width: 1044px) {
+@media screen and (max-width: 320px) {
 	body{
 	padding: 0;
 	margin: 0;
+	}
+	header{
+		width:100%;
+		height: 100%;
 	}
 
 .menu{
@@ -102,31 +106,81 @@ header{
 	display: none;
 
 	}
-.responsivo-frame{
-	display: block;
+	.responsivo-frame{
+			display: block;
+    		width: 100%;
+    		justify-content: center;
+    		align-items: center;
+    		position: relative;
+   			 top: 50px;
+		}
+
+	.home{
+			height: 27%;
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		flex-wrap: wrap;
+    		position: absolute;
+    		top: 27%;
+    		left: 6%;		}
+   
+	
+
+	.txt1{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			top: 45%;
+			left: 23%;
+			font-weight: bolder;
+			font-size: 19px;
+			color: rgb(0, 0, 0);
+			font-style: normal;
+			text-align: left;
+			line-height: 32px;
+			letter-spacing: 0.02em;
+		}
+
+
+	.sobre{
+			display: flex;
+			align-items: center;
+			font-size: 16px;
+			color: rgb(0, 0, 0);
+			font-style: normal;
+			text-align: left;
+			line-height: 28px;
+			letter-spacing: 0em;	
+		}
+
+
+	.txtsb{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			flex-wrap: wrap;
+			flex-direction: column;
+			top: 11%;
+			left: 2%;
+			font-size: 20px;
+			font-style: normal;
+			text-align: left;
+			line-height: 28px;
+			letter-spacing: 0em;
+			width: 9;   
+
 	}
-
-.home{
-	height: 75%
-
+	main{
+		padding-top:10%;
 	}
-
-.txt2{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 75%;
-	left: 38%;
-	;
-	font-weight: bolder;
-
-	}
-
 
 
    
 }
+
 
 .sobre{
 	display: flex;
@@ -139,7 +193,7 @@ header{
 	/*padding-top:  33%*/;
 }
 
-.txtsb{
+/*.txtsb{
 	position:relative;
 	display: flex;
 	justify-content: center;
@@ -148,11 +202,11 @@ header{
 	width: 42%;
 	left:0%;
 	top:0px;
-	/*font-size: 115%;*/
+	/*font-size: 115%;
 	font-size: 20px;
 	font-style: normal;
 	text-align: left;
-	line-height: 20px;
+	line-height: 20px;*/
 
 }
 
@@ -242,3 +296,70 @@ footer div{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: portrait){
+#home{width: 100%}
+#nav{width: 100%}
+#section{width:100%}
+#footer{width: 100%}
+}
+
+@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: landscape){
+#home{width: 100%}
+#nav{width: 100%}
+#section{width:100%}
+#footer{width: 100%}
+}
+
+@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: portrait){
+#home{width: 100%}
+#nav{width: 100%}
+#section{width:100%}
+#footer{width: 100%}
+}
+
+@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: portrait){
+#home{width: 100%}
+#nav{width: 100%}
+#section{width:100%}
+#footer{width: 100%}
+}
+
+@media screen and (max-width: 1044px){
+
+}*/
