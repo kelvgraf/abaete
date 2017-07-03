@@ -5,23 +5,44 @@ body{
 .img-header-responsivo-frame{
 	display: none;
 }
+.header-home{
+	height: 100%;
+
+}
+
+
 
 .menu{
 
 display: flex;
 align-items: center;
 justify-content: center;
+flex-direction: column;
 color:black;
 list-style: none;
-z-index: 4;
+z-index: 4%;
 font-weight: bold;
+margin-top: 8%;
+position: absolute;
+left: 50%;
 }
 
-.menu-list-item{
+.menu-list{
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	position: fixed;
-	top: 4%;
+	margin: 0;
+	padding: 0;
+	
+}
+.menu-list-item{
+	list-style: none;
+	margin: 0.5em;
+	display: flex;
+
+
+
 }
 
 ul li{
@@ -39,13 +60,10 @@ header{
 .img-header-frame{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	position: relative;	
-	margin-top: 1%;
-	margin-right: 1%;
 	width: 85%;
-	height:150%;
 	left: 8%;
-	bottom: 2%;
 
  	
 }
@@ -56,36 +74,28 @@ header{
 	align-items: center;
 	flex-wrap: wrap;
 	position: absolute;
-	top: 15%;
-	left: 22%;
-	height: 65%
+	top: 12%;
+	left: 18%;
+	height: 65%;
+	margin-bottom: 6%;
 
 }
 
-.txt1{
+.txt-home{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	position: absolute;
-	top: 70%;
-	left: 38%;
-	height: %;
-	font-weight: bolder;
-}
-
-.txt2{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	position: absolute;
-	top: 75%;
-	left: 38%;
-	height: %;
+	top: 67%;
+	left: 34%;
+	width: 30%;
 	font-weight: bolder;
 
 }
+
+
+
 
 
 @media screen and (max-width: 320px) {
@@ -157,7 +167,7 @@ header{
 		}
 
 
-	.txtsb{
+	.sobre-acao1-txtsobre{
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -176,7 +186,7 @@ header{
 	}
 	main{
 		padding-top:10%;
-	}
+}
 
 
 
@@ -204,8 +214,8 @@ header{
 
 	}
 
-.txt1{
-	    justify-content: center;
+.txt-home{
+	justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     position: absolute;
@@ -231,7 +241,7 @@ header{
 }
 
 
-.sobre{
+.sobre-acao1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -242,7 +252,7 @@ header{
 	/*padding-top:  33%*/;
 }
 
-/*.txtsb{
+.sobre-acao1-txtsobre{
 	position:relative;
 	display: flex;
 	justify-content: center;
@@ -251,15 +261,15 @@ header{
 	width: 42%;
 	left:0%;
 	top:0px;
-	/*font-size: 115%;
+	font-size: 115%;
 	font-size: 20px;
 	font-style: normal;
 	text-align: left;
-	line-height: 20px;*/
+	line-height: 20px;
 
 }
 
-.container{
+.sobre-acao2{
 	background-color: #0000DD;
 	width: 100%;
 	height: 100%;
