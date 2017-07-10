@@ -63,185 +63,82 @@ body {
 
 .texto-header {
 	margin: 0;
-}
-
-
-
-
-
-@media screen and (max-width: 320px) {
-
-	header{
-		width:100%;
-		height: 100%;
-	}
-
-	.menu{
-		margin: 1%;
-	}
-
-	.frame{
-		display: none;
-	}
-
-	.responsivo-frame{
-		display: block;
-		width: 100%;
-		position: relative;
-		top: 50px;
-	}
-
-	.home{
-		height: 27%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		position: absolute;
-		top: 27%;
-		left: 6%;
-    }
-   
-	
-
-	.txt1{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			position: absolute;
-			top: 45%;
-			left: 23%;
-			font-weight: bolder;
-			font-size: 19px;
-			color: rgb(0, 0, 0);
-			font-style: normal;
-			text-align: left;
-			line-height: 32px;
-			letter-spacing: 0.02em;
-		}
-
-
-	.sobre{
-			display: flex;
-			align-items: center;
-			font-size: 16px;
-			color: rgb(0, 0, 0);
-			font-style: normal;
-			text-align: left;
-			line-height: 28px;
-			letter-spacing: 0em;	
-		}
-
-
-	.sobre-acao1-txtsobre{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			position: absolute;
-			flex-wrap: wrap;
-			flex-direction: column;
-			top: 11%;
-			left: 2%;
-			font-size: 20px;
-			font-style: normal;
-			text-align: left;
-			line-height: 28px;
-			letter-spacing: 0em;
-			width: 9;   
-
-	}
-	main{
-		padding-top:10%;
-}
-
-
-
-.responsivo-frame{
-	display: block;
-	margin: 0%;
-    width: 112%;
-    height: 75%;
-    position: relative;
-    top: 50px;
-    left: -5%;
-	}
-
-.home{
-	height: 75%;
- 	display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    position: absolute;
-	top: 25%;
-    left: 8%;
-    width: 85%;
-    height: 30%;
-
-	}
-
-.txt-home{
 	justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    position: absolute;
-    flex-direction: column;
-    top: 55%;
-    left: 10%;
-    width: 75%;
-    height: 30%;
-    left: 17%;
-    height: %;
+    position: relative;
+    width: 45%;
+}
+
+.texto-header{
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 25px;
     font-style: normal;
     text-align: left;
     height: 76px;
     letter-spacing: 0.2em;
-    line-height: 32px;
+ }
 
-	}
-
-
-   
-}
-
-
-.sobre-acao1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	background-color: yellow;
-	width: 100%;
-	min-height: 100vh;
-	/*padding-top:  33%*/;
-}
-
-.sobre-acao1-txtsobre{
-	position:relative;
+.sobre-acao{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 42%;
-	left:0%;
-	top:0px;
-	font-size: 115%;
+	position: relative;
+	background-color: rgb(255, 232, 0);
+	width: 100%;
+	min-height: 100vh;
+}
+
+.sobre-descricao{
+	width: 52%;
 	font-size: 20px;
 	font-style: normal;
 	text-align: left;
-	line-height: 20px;
+	line-height: 32px;
 
 }
 
-.sobre-acao2{
-	background-color: #0000DD;
+.acao{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	background-color:rgb(45, 114, 177);
 	width: 100%;
-	height: 100%;
-	position: absolute;
+	min-height: 100vh;
 }
 
+.acao-titulo{
+	font-Family: AzoSans-Regular,ModestoInitials-Fill;
+	font-Size: 18px, 20px;
+	color: rgb(255, 255, 255);
+	font-Style: normal;
+	text-align: left;
+	line-height: 28px;
+	letter-spacing: 0em,0.02em;
+
+}
+
+.acao-descricao{
+	font-Family: AzoSans-Regular,ModestoInitials-Fill;
+	font-Size: 18px, 20px;
+	color: rgb(255, 255, 255);
+	font-Style: normal;
+	text-align: left;
+	line-height: 28px;
+	letter-spacing: 0em,0.02em;
+}
+
+.acao-imgs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 50%;
+	
+}
 
 .prgf{
 	justify-content: center;
@@ -254,18 +151,8 @@ body {
 	line-height: 35px;
 }
 
-.mySlides{
-	width: 55%;
-	height: 63%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0%;
-	position: relative;
-	top: 22%;
-	left: 22%;
-}
-.mySlides {display:none}
+
+.acao-img{display:none}
 .Abaete_Seta_direita, .Abaete_Seta_esquerda {
 	position: absolute;
 	top: 50%;
@@ -330,45 +217,3 @@ footer div{
 	top: 350px;
 	left: -150%;
 }
-
-}
-
-
-
-
-
-
-
-/*
-
-@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: portrait){
-#home{width: 100%}
-#nav{width: 100%}
-#section{width:100%}
-#footer{width: 100%}
-}
-
-@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: landscape){
-#home{width: 100%}
-#nav{width: 100%}
-#section{width:100%}
-#footer{width: 100%}
-}
-
-@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: portrait){
-#home{width: 100%}
-#nav{width: 100%}
-#section{width:100%}
-#footer{width: 100%}
-}
-
-@media screen and (min-width: 320) and (max-width: 1044px) and (orientation: portrait){
-#home{width: 100%}
-#nav{width: 100%}
-#section{width:100%}
-#footer{width: 100%}
-}
-
-@media screen and (max-width: 1044px){
-
-}*/
