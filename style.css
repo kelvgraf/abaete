@@ -66,15 +66,12 @@ body {
 	justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    position: relative;
     width: 45%;
 }
 
 .texto-header{
     font-weight: bolder;
     font-size: 25px;
-    font-style: normal;
-    text-align: left;
     height: 76px;
     letter-spacing: 0.2em;
  }
@@ -93,8 +90,6 @@ body {
 .sobre-descricao{
 	width: 52%;
 	font-size: 20px;
-	font-style: normal;
-	text-align: left;
 	line-height: 32px;
 
 }
@@ -111,109 +106,93 @@ body {
 }
 
 .acao-titulo{
-	font-Family: AzoSans-Regular,ModestoInitials-Fill;
-	font-Size: 18px, 20px;
+	font-family: AzoSans-Regular,ModestoInitials-Fill;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
-	font-Style: normal;
-	text-align: left;
 	line-height: 28px;
 	letter-spacing: 0em,0.02em;
 
 }
 
 .acao-descricao{
-	font-Family: AzoSans-Regular,ModestoInitials-Fill;
-	font-Size: 18px, 20px;
+	font-family: AzoSans-Regular,ModestoInitials-Fill;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
-	font-Style: normal;
-	text-align: left;
 	line-height: 28px;
 	letter-spacing: 0em,0.02em;
 }
 
-.acao-imgs{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50%;
-	height: 50%;
-	
-}
 
-.prgf{
-	justify-content: center;
-	position: relative;
-	top: 250px;
-	left: 13%;
-	font-size: 30px;
-	font-style: normal;
-	text-align: left;
-	line-height: 35px;
-}
+ .acao-img{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	width: 50%;
+ }
 
 
 .acao-img{display:none}
+
 .Abaete_Seta_direita, .Abaete_Seta_esquerda {
 	position: absolute;
 	top: 50%;
 	cursor: pointer;
 	display: block;
 	border: none;
-	/*margin: 10px;*/
 }
+
 .Abaete_Seta_esquerda {
 	left: 2.5%;
 	width: 30px;
 	height: 30px;
 	background: red;
 }
+
 .Abaete_Seta_direita {
 	right: 2.5%;
 	width: 30px;
 	height: 30px;
 	background: red;
 }
+
 .w3-left{
 	position: relative;
 	left:-600px;
 
 }
-/*.w3-badge {height:20px;width:20px;padding:0}
 
+
+.footer-fim{
+	background: url('Assets/Abaete-Frame-Desktop-Contato.svg') no-repeat center center;
+	background-size: 100% 100%; 
+	height: 100vh;
+	
 }
-*/
 
-footer div{
-	position: relative;
+
+.contato{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*flex-direction: column;*/
-	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	
 }
 
-.framefooter{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	top: 700px;
-	left: 15%;
-	width: 75%;
-	height:600px;
-	margin-top: 4%;
-}
 
+.contato-informacao{
+	font-size: 29.3px;
+	color: rgb(45, 114, 177);
+	line-height: 35.2px;
+	letter-spacing: 0.06em;
+}
 
 .icone{
-	position: relative;
-	display: inline;
-	justify-content: center;
+	width:  100%;
+	display: flex;
+	list-style: none;
 	align-items: center;
-	flex-wrap: wrap;
-	width: 125%;
-	height: 125%;
-	position: relative;
-	top: 350px;
-	left: -150%;
+	justify-content: center;
 }
+
