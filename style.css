@@ -17,10 +17,15 @@ body {
 	height: 100vh;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 320px) {
 	.header-home{
 		background: url('Assets/Abaete-Frame-Mobile.svg') no-repeat center center;
 	}
+
+	.texto-header{
+		font-size: 18px;
+	}
+
 }
 
 .menu{
@@ -58,7 +63,7 @@ body {
 
 .img-header-logo {
 	margin-top: -2em;
-	max-width: 55%;
+	max-width: 75%;
 }
 
 .texto-header {
@@ -98,8 +103,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-	position: relative;
+	flex-direction: row;
 	background-color:rgb(45, 114, 177);
 	width: 100%;
 	min-height: 100vh;
@@ -130,37 +134,12 @@ body {
  	width: 50%;
  }
 
-
-.acao-img{display:none}
-
 .Abaete_Seta_direita, .Abaete_Seta_esquerda {
 	position: absolute;
-	top: 50%;
 	cursor: pointer;
 	display: block;
 	border: none;
 }
-
-.Abaete_Seta_esquerda {
-	left: 2.5%;
-	width: 30px;
-	height: 30px;
-	background: red;
-}
-
-.Abaete_Seta_direita {
-	right: 2.5%;
-	width: 30px;
-	height: 30px;
-	background: red;
-}
-
-.w3-left{
-	position: relative;
-	left:-600px;
-
-}
-
 
 .footer-fim{
 	background: url('Assets/Abaete-Frame-Desktop-Contato.svg') no-repeat center center;

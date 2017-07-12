@@ -37,32 +37,25 @@
 			</div>	
 		</section>
 
-		<section class="acao"> 
+		<section class="acao">
+			<img src="Assets/seta-esquerda.svg" class="acao-seta-direita" onclick="plusDivs(1)"></img>
 			<div class="acao-slide">
 				<h2 class="acao-titulo">Audiovisual na alma</h2>
 				<p class="acao-descricao">Aqui você encontra profissionais talentosos, qualificados e apaixonados pelo audiovisual, além de preço justo e uma relação sincera.</p>
-				<img class="acao-img" src="Assets/Abaete-Acao1.jpg">
+				<img class="acao-img" src="Assets/Abaete-Acao1.jpg" onclick="plusDivs(-1)"></img>
 			</div>
-
 			<div class="acao-slide">
 				<h2 class="acao-titulo">Novos talentos</h2>
 				<p class="acao-descricao">O trabalho com artistas locais traz ventos de criatividade, autenticidade e pioneirismo, fazendo do Abaeté uma fonte abundante de novos talentos, ideias e atitudes.</p>
-	  			<img class="acao-img" src="Assets/Abaete-Acao2.jpg">
-  			</div>
-
-
- 		<button class="Abaete_Seta_direita" onclick="plusDivs(-1)"></button>
-  		<button class="Abaete_Seta_esquerda" onclick="plusDivs(1)"></button>
-	
-  		 
-	</div>
-</div>
-
+				<img class="acao-img" src="Assets/Abaete-Acao2.jpg">
+			</div>
+			<img src="Assets/seta-direita.svg" class="acao-seta-direita" onclick="plusDivs(1)"></img>
 		</section>
 </main>
 	<footer class="footer-fim">
 		<div class="contato">	
-				<p class="contato-informacao">estudioabaete@gmail.com <br> (21) 9 8336-9348</p>
+				<p class="contato-informacao"><span>estudioabaete@gmail.com</span>
+				<span> (21) 9 8336-9348</p></span>
 			<ul class="icone">
 				<li><a  href="https://www.facebook.com/estudioabaete/" target="black
 				"><img class="icone"  src="Assets/Abaete-Icone-Facebook.svg"></a></li>
@@ -86,7 +79,7 @@
 
 		function showDivs(n) {
 		  var i;
-		  var x = document.getElementsByClassName("mySlides");
+		  var x = document.getElementsByClassName("acao-slide");
 		  if (n > x.length) {slideIndex = 1}    
 		  if (n < 1) {slideIndex = x.length}
 		  for (i = 0; i < x.length; i++) {
