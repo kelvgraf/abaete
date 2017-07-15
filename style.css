@@ -17,13 +17,21 @@ body {
 	height: 100vh;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 620px) {
 	.header-home{
 		background: url('Assets/Abaete-Frame-Mobile.svg') no-repeat center center;
+		background-size: 100% 100%; 
+		height: 100vh;
+
+	}
+	.img-header-logo{
+		width: 75%;
 	}
 
+
 	.texto-header{
-		font-size: 18px;
+		font-size:16px;
+	
 	}
 
 }
@@ -34,9 +42,8 @@ body {
 	justify-content: center;
 	list-style: none;
 	z-index: 4;
-	position: absolute;
-	top: 8%;
-	left: 50%;
+	font-family: "azo-sans-web",sans-serif;
+
 }
 
 .menu-list{
@@ -45,13 +52,12 @@ body {
 	justify-content: center;
 	position: fixed;
 	list-style: none;
-	margin: 0;
-	padding: 0;
 }
 
 .menu-list-item{
-	margin: 0.5em;
+	margin: 1.7em;
 	display: flex;
+	font-size: 20px;
 }
 
 .header-home {
@@ -63,7 +69,7 @@ body {
 
 .img-header-logo {
 	margin-top: -2em;
-	max-width: 75%;
+	max-width: 60%;
 }
 
 .texto-header {
@@ -76,9 +82,10 @@ body {
 
 .texto-header{
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
     height: 76px;
     letter-spacing: 0.2em;
+    font-family: "azo-sans-web",sans-serif;
  }
 
 .sobre-acao{
@@ -92,10 +99,20 @@ body {
 	min-height: 100vh;
 }
 
+	@media (max-width: 620px){
+		.sobre-descricao{
+			width: 55%;
+			margin-top: 20%;
+
+	}
+
+}
+
 .sobre-descricao{
 	width: 52%;
 	font-size: 20px;
 	line-height: 32px;
+	font-family: "azo-sans-web",sans-serif;
 
 }
 
@@ -110,7 +127,7 @@ body {
 }
 
 .acao-titulo{
-	font-family: AzoSans-Regular,ModestoInitials-Fill;
+	font-family: "modesto-initials",serif;
 	font-size: 18px;
 	color: rgb(255, 255, 255);
 	line-height: 28px;
@@ -119,7 +136,7 @@ body {
 }
 
 .acao-descricao{
-	font-family: AzoSans-Regular,ModestoInitials-Fill;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 18px;
 	color: rgb(255, 255, 255);
 	line-height: 28px;
@@ -154,7 +171,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 100%;
+	width: 93%;
 	min-height: 100vh;
 	
 }
@@ -165,6 +182,7 @@ body {
 	color: rgb(45, 114, 177);
 	line-height: 35.2px;
 	letter-spacing: 0.06em;
+	font-family: "azo-sans-uber",sans-serif;
 }
 
 .icone{
