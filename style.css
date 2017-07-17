@@ -34,6 +34,17 @@ body {
 	
 	}
 
+	.menu{
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		margin-top: 2%;
+	}
+
+	.menu-list{
+		margin:5%;
+	}
+
 	.menu-list-item{
 		margin: 0.7em;
 		font-size: 15px;
@@ -49,24 +60,24 @@ body {
 	list-style: none;
 	z-index: 4;
 	font-family: "azo-sans-web",sans-serif;
-	margin-top: 0;
 	position: relative;
 
 }
 
 .menu-list{
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	position: fixed;
 	list-style: none;
+	margin: -3%;
 }
 
 .menu-list-item{
 	margin: 1.7em;
 	font-size: 20px;
 	color: black;
+
 }
+
 
 .header-home {
 	display: flex;
