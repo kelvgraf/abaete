@@ -25,16 +25,16 @@ body {
 	z-index: 4;
 	font-family: "azo-sans-web",sans-serif;
 	position: fixed;
-	top: 2.5em;
+	top: 3.5em;
 }
 
-@media (max-width: 620px) {
-	.menu{
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		top: 2em;
-	}
+				@media (max-width: 620px) {
+					.menu{
+						justify-content: center;
+						align-items: center;
+						display: flex;
+						top: 2em;
+					}
 
 }
 
@@ -49,15 +49,16 @@ body {
 }
 
 .menu-list-item {
-	margin: 0 0.5em;
+	margin: 0 1em;
 }
 
-@media (max-width: 620px) {
-	.menu-list-item{
-		margin: 0.7em;
-		font-size: 15px;
-	}
-}
+					@media (max-width: 620px) {
+						.menu-list-item{
+							margin: 0.7em;
+							font-size: 15px;
+							letter-spacing: 0.1em;
+						}
+					}
 
 .header-home {
 	display: flex;
@@ -66,24 +67,24 @@ body {
 	flex-direction: column;
 }
 
-@media (max-width: 620px) {
-	.header-home{
-		background: url('Assets/Abaete-Frame-Mobile.svg') no-repeat center center;
-		background-size: 100% 100%; 
-		height: 100vh;
-	}
-}
+					@media (max-width: 620px) {
+						.header-home{
+							background: url('Assets/Abaete-Frame-Mobile.svg') no-repeat center center;
+							background-size: 100% 100%; 
+							height: 100vh;
+						}
+					}
 
 .img-header-logo {
 	margin-top: -2em;
 	max-width: 60%;
 }
 
-@media (max-width: 620px) {
-	.img-header-logo{
-		max-width: 75%;
-	}
-}
+					@media (max-width: 620px) {
+						.img-header-logo{
+							max-width: 75%;
+						}
+					}
 
 .texto-header {
 	margin: 0;
@@ -99,12 +100,12 @@ body {
 
  }
 
-@media (max-width: 620px) {
-	.texto-header{
-    	width: 70%;
-		font-size: 1.05em;
-	}
-}
+					@media (max-width: 620px) {
+						.texto-header{
+					    	width: 70%;
+							font-size: 1.05em;
+						}
+					}
 
 .sobre-acao{
 	display: flex;
@@ -116,12 +117,12 @@ body {
 	min-height: 100vh;
 }
 
-@media (max-width: 620px){
-	.sobre-descricao{
-		width: 55%;
-		margin-top: 20%;
-	}
-}
+					@media (max-width: 620px){
+						.sobre-descricao{
+							width: 55%;
+							margin-top: 20%;
+						}
+					}
 
 .sobre-descricao{
 	width: 50%;
@@ -130,14 +131,14 @@ body {
     font-family: "azo-sans-web",sans-serif;
 }
 
-@media (max-width: 620px){
-	.sobre-descricao{
-		width: 85%;
-		margin: 0;
-		font-size: 1em;
-		padding: 2em 0;
-	}
-}
+					@media (max-width: 620px){
+						.sobre-descricao{
+							width: 85%;
+							margin: 0;
+							font-size: 1em;
+							padding: 2em 0;
+						}
+					}
 
 .acao{
 	display: flex;
@@ -154,11 +155,11 @@ body {
 	min-height: 100vh;
 }
 
-@media (max-width: 620px) {
-	.acao-slide{
-		margin-top: 20%;
-	}
-}
+					@media (max-width: 620px) {
+						.acao-slide{
+							margin-top: 20%;
+						}
+					}
 
 .acao-titulo{
 	font-family: "modesto-initials",serif;
@@ -167,14 +168,14 @@ body {
 	line-height: 28px;
 	letter-spacing: 0em;
 	width: 60%;
-	margin: 3em auto 1em;
+	margin: 7em auto 1em;
 }
 
-@media (max-width: 620px) {
-	.acao-titulo{
-		width: 80%;
-	}
-}
+					@media (max-width: 620px) {
+						.acao-titulo{
+							width: 80%;
+						}
+					}
 
 .acao-descricao{
 	font-family: "azo-sans-web",sans-serif;
@@ -186,11 +187,11 @@ body {
 	margin: 0 auto 1em;
 }
 
-@media (max-width: 620px) {
-	.acao-descricao{
-		width: 80%;
-	}
-}
+					@media (max-width: 620px) {
+						.acao-descricao{
+							width: 80%;
+						}
+					}
 
 .acao-img{
 	display: flex;
@@ -200,11 +201,11 @@ body {
 	margin: 0 auto 2em;
 }
 
-@media (max-width: 620px) {
-	.acao-img{
-		width: 80%;
-	}
-}
+					@media (max-width: 620px) {
+						.acao-img{
+							width: 80%;
+						}
+					}
 
 .Abaete_Seta_direita, .Abaete_Seta_esquerda {
 	position: absolute;
@@ -221,11 +222,11 @@ body {
 }
 
 
-@media (max-width: 620px) {
-	.footer-fim{
-		background-size: 0;
-	}
-}
+					@media (max-width: 620px) {
+						.footer-fim{
+							background-size: 0;
+						}
+					}
 
 .contato{
 	display: flex;
@@ -245,12 +246,12 @@ body {
 	font-family: "azo-sans-uber",sans-serif;
 }
 
-@media (max-width: 620px) {
-	.contato-informacao{
-		font-size: 1.05em;
-		width: 90%;
-	}
-}
+					@media (max-width: 620px) {
+						.contato-informacao{
+							font-size: 1.05em;
+							width: 90%;
+						}
+					}
 
 .icone{
 	width:  100%;
@@ -267,8 +268,8 @@ body {
 	margin: 1em;
 }
 
-@media (max-width: 620px) {
-	.icone{
-		padding: 0;
-	}
-}
+				@media (max-width: 620px) {
+					.icone{
+						padding: 0;
+					}
+				}
