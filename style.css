@@ -50,13 +50,15 @@ body {
 
 .menu-list-item {
 	margin: 0 1em;
+	font-weight: bold;
 }
 
 					@media (max-width: 620px) {
 						.menu-list-item{
-							margin: 0.7em;
+							margin: 5px;
 							font-size: 15px;
 							letter-spacing: 0.1em;
+							font-weight: bold;
 						}
 					}
 
@@ -143,7 +145,6 @@ body {
 .acao{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-direction: row;
 	background-color:rgb(45, 114, 177);
 	width: 100%;
@@ -161,6 +162,10 @@ body {
 						}
 					}
 
+
+.acao-slide img{
+	align-items: flex-end;
+}
 .acao-titulo{
 	font-family: "modesto-initials",serif;
 	font-size: 18px;

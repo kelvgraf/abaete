@@ -6,16 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Estúdio Abaeté</title>
 	<link rel="stylesheet" href="style.css"> 
-	   <script src="https://use.typekit.net/unm8xzn.js"></script>
-		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<script src="https://use.typekit.net/unm8xzn.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-	<header class="header-home">
+	<header class="header-home" id="HOME">
 		<nav class="menu">
 			<ul class="menu-list">
 				<li class="menu-list-item"><a href="#HOME"><font color="black">HOME</font></li></a>
 				<li class="menu-list-item"><a href="#SOBRE"><font color="black">SOBRE</font></li></a>
-				<li class="menu-list-item"><a href="#AÇÕES"><font color="black">AÇÕES</font></li></a>
+				<li class="menu-list-item"><a href="#ACOES"><font color="black">AÇÕES</font></li></a>
 				<li class="menu-list-item"><a href="#CONTATO"><font color="black">CONTATO</font></li></a>
 			</ul>
 		</nav>
@@ -24,8 +24,8 @@
 	</header>
 
 	<main>	
-		<section class="sobre">
-		<div class="sobre-acao">	
+		<section class="sobre" id="SOBRE">
+			<div class="sobre-acao">	
 				<div class="sobre-descricao">
 				<p>Abaeté é uma palavra da língua Tupi que significa homem verdadeiro, através da junção dos termos "abá" (homem) e eté (verdadeiro). 
 				</p>
@@ -39,7 +39,7 @@
 			</div>
 		</section>
 
-		<section class="acao">
+		<section class="acao" id="ACOES">
 			<img src="Assets/seta-esquerda.svg" class="acao-seta-direita" onclick="plusDivs(1)"></img>
 			<div class="acao-slide">
 				<h2 class="acao-titulo">Audiovisual na alma</h2>
@@ -54,7 +54,7 @@
 			<img src="Assets/seta-direita.svg" class="acao-seta-direita" onclick="plusDivs(1)"></img>
 		</section>
 </main>
-	<footer class="footer-fim">
+	<footer class="footer-fim" id="CONTATO">
 		<div class="contato">	
 				<p class="contato-informacao"><span>estudioabaete@gmail.com</span>
 				<span> (21) 9 8336-9348</span></p>
@@ -69,7 +69,7 @@
 
 
 	</footer>
-+
+
 	<script>
 		var slideIndex = 1;
 		
